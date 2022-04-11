@@ -81,10 +81,5 @@ namespace NapalmCT
             int s = semitones % 12;
             return s;
         }
-
-        private int Modulas(int input, int divisor)
-        {
-            return (input % divisor + divisor) % divisor;
-        }
     }
 }
